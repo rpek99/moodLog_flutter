@@ -29,6 +29,7 @@ class _ReminderState extends State<ReminderListPage> {
         title: const Text('Reminders',
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600)),
         backgroundColor: Colors.white,
+        surfaceTintColor: Colors.transparent,
         elevation: 0,
       ),
       body: Padding(

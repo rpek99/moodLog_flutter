@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mood_log_app/src/layers/presentation/pages/add_note_page.dart';
+import 'package:mood_log_app/src/layers/presentation/pages/inbox_page.dart';
+import 'package:mood_log_app/src/layers/presentation/pages/log_mood_page.dart';
+import 'package:mood_log_app/src/layers/presentation/pages/notification_list_page.dart';
 import 'package:mood_log_app/src/layers/presentation/pages/profile_page.dart';
 import 'package:mood_log_app/src/layers/presentation/pages/reminder_list_page.dart';
 
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         fontFamily: 'Epilogue'
       ),
-      home: const AddNotePage(),
+      home: const MoodPage(),
     );
   }
 }
