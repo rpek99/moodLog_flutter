@@ -18,7 +18,7 @@ class _ProfilePageState extends State<ProfilePage> {
           onPressed: () => Navigator.pop(context),
         ),
         title: const Text(
-          'Allison Wang',
+          'Rüstem Pek',
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
         ),
       ),
