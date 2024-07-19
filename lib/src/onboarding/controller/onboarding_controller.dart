@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mood_log_app/src/layers/presentation/pages/login_page.dart';
 
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
@@ -17,7 +18,7 @@ class OnBoardingController extends GetxController {
 
   void nextPage() {
     if(currentPageIndex.value == 2) {
-      // Get.to(LoginScreen());
+      Get.to(() => LoginPage());
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
